@@ -33,6 +33,8 @@ Account renamed: Win71212121212121212 to Win71212121212121212
 ---------------------
 
 
+Tested on: Windows Server 2012 R2, Windows 7.
+
    config.ini explanation
 [Main] 
 limit=12 ;#password length
