@@ -1,6 +1,7 @@
 # LAPSalternative
 
-Howto and Deployment manual with illustrations: howto/howto.pdf
+Howto and Deployment manual with illustrations: howto/howto.pdf 
+(https://github.com/ThatDarkAngel/LAPSalternative/blob/master/howto/howto.pdf)
 
 As we all know for security reasons we need to rename, enable or disable, set passwords for local windows administrator accounts. There are some alternative ways to achieve this. VBscripts and using LAPS (MS solution).
 The first one sucks because storing your local admin password in SYSVOL is a bad idea. (otherwise how you are going to set it?)
