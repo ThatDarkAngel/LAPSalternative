@@ -1,0 +1,41 @@
+<MsiWrapper>
+  <Installer>
+    <IconFile Detect="executable" Value="" />
+    <Output FileName="C:\Users\Administrator\Desktop\InnoSetup\passwordgenerator.msi" />
+    <InstallPrivileges Value="Elevated" />
+    <PerUser Value="auto" />
+    <ElevateExecutable Value="always" />
+    <UpgradeCode Value="{B665E42A-0741-4198-BEEF-E34F8510D931}" />
+    <ProductId Value="" />
+    <Manufacturer Detect="" Value="sadsa" />
+    <ProductVersion Detect="" Value="8.1.1.1" />
+    <ProductName Detect="" Value="e" />
+    <Comments Detect="executable" Value="" />
+    <Contact Detect="" Value="" />
+    <HelpLink Detect="" Value="" />
+    <UpdateLink Detect="" Value="" />
+    <AboutLink Detect="" Value="" />
+  </Installer>
+  <WrappedInstaller>
+    <Executable FileName="C:\Users\Administrator\Desktop\InnoSetup\passwordgenerator.exe" SuccessCodes="" Impersonate="no" IncludeFiles="no" CompressionLevel="None" />
+    <ApplicationId Value="" />
+    <Install>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+      <RunBeforeInstall Value="" />
+      <RunAfterInstall Value="passwordgenerator.exe" />
+    </Install>
+    <Uninstall>
+      <Arguments Value="">
+        <UILevelNone Value="" />
+        <UILevelBasic Value="" />
+        <UILevelReduced Value="" />
+        <UILevelFull Value="" />
+      </Arguments>
+    </Uninstall>
+  </WrappedInstaller>
+</MsiWrapper>
