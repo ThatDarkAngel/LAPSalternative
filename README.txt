@@ -32,3 +32,10 @@ When: 20/05/2018 17:00:50:193
 Account renamed: Win71212121212121212 to Win71212121212121212
 ---------------------
 
+
+   config.ini explanation
+[Main] 
+limit=12 ;#password length
+suffix=12 ;# Suffix to add Account name: in ex: Administrator12
+state=no ;# Disable account. Set to "yes" to enable otherwise set to "no" to disable accounts.
+
