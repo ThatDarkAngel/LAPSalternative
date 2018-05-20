@@ -6,9 +6,9 @@ So i made simple (currently under development) solution for this reason.
 But here is main idea (Make the whole process secure as possible)
 1). You deploy it via GPO "Software Installation" (Note: msi package is created using "MsiWrapper") to corresponding OU.
 2). It runs and discovers all local admin accounts on corresponding servers/computers. Renames all of them by predefined suffix, enables or disables them, sets secure passwords (randomly generated) for them and sends that credentials/computer names, local admin names to your share. This also can be used in critic situations too. Or vice versa can be used in post exploitation. (offensive/defensive way)
-Anyways, if someone interested feel free to make your own imporevements, features or if you planning constantly development it we may create github repo for it.
-Here is solution that is written in autoit scripting language. (Don't blame me please it just took me 5 mins to code it. It's sample anyways).
-Works without any problems as described above but still it needs some improvents.
+
+Here is solution that is written in autoit scripting language. (Don't blame me please it just took me 5 mins to code it. It's sample anyways but works without any problems).
+
 Sample output:
 
 ---------------------
