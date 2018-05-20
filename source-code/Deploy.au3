@@ -9,7 +9,7 @@
 if not @Compiled then Exit
 
 
-;Prerequisite: Create CNAME that points to loldc
+;Prerequisite: Create CNAME (loldc) that points to dc where your files stored on share.
 $configfile='\\loldc\securestorage\config.ini'
 $storage='\\loldc\securestorage\'
 
